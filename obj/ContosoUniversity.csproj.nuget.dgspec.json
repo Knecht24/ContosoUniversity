@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\ContosoUniversity\\ContosoUniversity.csproj": {}
+    "C:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\ContosoUniversity\\ContosoUniversity.csproj": {}
   },
   "projects": {
-    "c:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\ContosoUniversity\\ContosoUniversity.csproj": {
+    "C:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\ContosoUniversity\\ContosoUniversity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\ContosoUniversity\\ContosoUniversity.csproj",
+        "projectUniqueName": "C:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\ContosoUniversity\\ContosoUniversity.csproj",
         "projectName": "ContosoUniversity",
-        "projectPath": "c:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\ContosoUniversity\\ContosoUniversity.csproj",
+        "projectPath": "C:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\ContosoUniversity\\ContosoUniversity.csproj",
         "packagesPath": "C:\\Users\\jtlfu\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\ContosoUniversity\\obj\\",
+        "outputPath": "C:\\Users\\jtlfu\\OneDrive\\Desktop\\SPC\\COP2839\\ContosoUniversity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,28 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
